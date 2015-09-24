@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='mccApp'>
+<head>
+    <meta charset="UTF-8">
+    <title>MCC v. 2.0</title>
+    <link rel="stylesheet" type="text/css" media="all" href="css/style.css" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>  
+</head>
+<body>
+
+<navbar></navbar>
+    
+
+
+
+
+
+   
+    <div id="home" class="image1" >
+        
+        <div class='hamburger'><img id='hburger' src="Images/hamburger.png"></div>
+ 
+    <img id="mainLogo" src="Images/mcctransp.png">
+    </div>
+    
+    <div id="about" class="content aboutBorder">
+        
+        
+        <h1>About Us</h1>
+        <p>Serving local and national business communities, we have consistently met and exceeded our customers’ expectations on color copies and printing orders since 1987. We’re proud to be able to offer our invaluable experience and expertise, coupled with our superior customer care, at a fraction of the cost that many of our customers are used to paying elsewhere. We offer a wide range of printing solutions, so whether you are looking for inexpensive color copies or just some place to print color copies at an affordable price, make us your one-stop digital printing resource for high quality at a low-cost.</p>
+            
+        
+        
+    </div>
+    
+    
+    
+    <div id="wall_2" class="image2"  ></div>
+    <div id="services" class="content" >
+        
+        <h1>Our Services</h1>
+        
+        </br>
+    </br>
+    
+        <div class='serviceChoices'>
+        <div class='serviceContainers1'>
+        <div id='icons'>S</div>
+            <div id='iconTitle'><strong>Small Prints</strong></div>
+        <div id='iconContents'>
+        Business Cards
+            </br>
+        Wedding Invitations
+        </br>
+        Brochures
+        </div>
+        
+        </div>
+    
+     <div class='serviceContainers2'>
+        <div id='icons'>M</div>
+         <div id='iconTitle'><strong>Medium Prints</strong></div>
+        <div id='iconContents'>
+        Business Cards
+            </br>
+        Wedding Invitations
+        </br>
+        Brochures
+        </div>
+        
+        </div>
+
+ <div class='serviceContainers3'>
+        <div id='icons'>L</div>
+     <div id='iconTitle'><strong>Large Prints</strong></div>
+        <div id='iconContents'>
+        Business Cards
+            </br>
+        Wedding Invitations
+        </br>
+        Brochures
+        </div>
+        
+        </div>
+</div>
+   
+    
+         
+    
+    </div>
+    
+    
+    
+    <div id="wall_3" class="image3" ></div>
+    <div id="contact" class="content">
+        <div class='leftContainer'>
+            <div id='map'></div>
+        </div>
+        <div class='rightContainer'>
+        <h1>Contact Us</h1>
+    <form>
+  <input name="name" type="text" class="feedback-input" placeholder="Name" />
+  <input name="email" type="text" class="feedback-input" placeholder="Email" />
+  <textarea name="text" class="feedback-input2" placeholder="Comment"></textarea>
+  <input type="submit" value="Submit" />
+</form>   
+            
+        </div>
+    
+        
+    </div>
+
+<div class='footer'></div>
+
+
+
+
+  <ng-view></ng-view> 
+    
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-route.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjve_rdgdnK2ZwySwIere8lRq88r9gA5I&signed_in=true&callback=initMap"
+        async defer></script>
+
+
+
+<script src="js/app.js"></script>
+<script src="js/homeCtrl.js"></script>
+<script src="js/directives.js"></script>
+
+
+</body>
+</html>
