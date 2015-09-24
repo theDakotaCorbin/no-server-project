@@ -2,7 +2,7 @@ var app = angular.module('mccApp', ['ngRoute']);
 
 app.config(function ($routeProvider) {
     $routeProvider
-    .when('/#home', {
+    .when('/home', {
         templateUrl: 'home.html',
         controller: 'homeCtrl'
         
@@ -22,17 +22,17 @@ app.config(function ($routeProvider) {
 //        controller: 'homeCtrl'
 //        
 //})
-    .when('/#smallprints', {
+    .when('/smallprints', {
         templateUrl: 'smallPrints.html',
-        controller: 'homeCtrl'
+        controller: 'smallPrintsCtrl'
         
 })
-    .when('/#mediumprints', {
+    .when('/mediumprints', {
         templateUrl: 'mediumPrints.html',
         controller: 'homeCtrl'
         
 })
-    .when('/#largeprints', {
+    .when('/largeprints', {
         templateUrl: 'largePrints.html',
         controller: 'homeCtrl'
         
